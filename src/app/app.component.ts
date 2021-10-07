@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'base';
 }
 console.log("Bienvenidos a Typescript");
-
+//CAMBIO AQUI
 //#region variables
 
 // let nombre: string = "Arturito";
@@ -179,3 +179,4 @@ const e01cp01: Alumno = new Alumno("Juan Perez", "8888888");
 console.log("--------------------------------")
 console.log(e01cp01);
 e01cp01.mostrarAlumno();
+console.log("-----------------------")
