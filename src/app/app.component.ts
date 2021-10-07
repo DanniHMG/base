@@ -148,6 +148,7 @@ class Alumno {
   //   this.nombre = nombre;
   //   this.dni = dni;
   // }
+  //aa
   constructor(
     private nombre: string,
     private dni: string
