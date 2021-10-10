@@ -1,0 +1,12 @@
+<h3>Clientes</h3>
+<ul>
+    <li *ngFor="let cliente of clientes; let i = index ">  
+       {{ i + 1}} - {{ cliente }}
+    </li>
+</ul>
+<button type="button" class="btn btn-primary" (click) = "eliminarElemento()">Eliminar</button>
+
+<div *ngIf="clienteEliminado !== 'sin valor'">
+<h3>CLIENTES ELIMINADOS</h3>
+<P> {{ clienteEliminado}} </P>
+</div>

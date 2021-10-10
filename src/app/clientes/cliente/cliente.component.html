@@ -1,0 +1,18 @@
+<div class="container">
+    <h2> {{ nombre }} </h2>
+    <dl>
+        <td> Nombre: </td>
+        <dd> {{ nombre }} </dd>
+        <td> Edad: </td>
+        <dd> {{ edad }} </dd>
+        <td> Metodo: </td>
+        <dd> {{ recibirDatos() }} </dd>
+        <td> Nombre Mayusculas: </td>
+        <dd> {{ nombreMayuscula }} </dd>
+    </dl>
+    <div class="row">
+        <button type="button" class="btn btn-primary" (click) = "cambiarNombre()" >Cambiar cliente</button>
+        <button type="button" class="btn btn-primary" (click) ="cambiarEdad()">Editar Edad</button>
+    </div>
+</div>
+<app-listaclientes></app-listaclientes>
